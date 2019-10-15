@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var commuteMiles: UITextField!
     @IBOutlet weak var gasAvailable: UILabel!
+    @IBOutlet weak var switchMonthly: UISwitch!
     @IBOutlet weak var gasStepper: UIStepper!
     @IBOutlet weak var modeOfTransport: UISegmentedControl!
     @IBOutlet weak var commuteTime: UILabel!
@@ -39,6 +40,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         } else if modeOfTransport.selectedSegmentIndex == 2 {
             stepperIcon.image=UIImage(named: "bike")
         }
+    }
+    
+    @IBAction func calcCommute(_ sender: UIButton){
+        
+    }
+    
+    func monthlyTotals(){
+        if switchMonthly.isOn {
+            commuteTime.text=commuteTime?.value * 20
+        } else {
+            commuteTime.text=commuteTime.value
+        }
+    }
+    @IBAction func updateMonthlyTotals(_ sender: UISwitch){
+        monthlyTotals()
     }
     
     func updateGasTotals(){

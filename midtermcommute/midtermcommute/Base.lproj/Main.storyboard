@@ -63,11 +63,17 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="h1p-Af-AlM">
                                 <rect key="frame" x="309" y="263" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="updateMonthlyTotals:" destination="BYZ-38-t0r" eventType="valueChanged" id="t9H-7G-jO2"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foh-ZP-VHK">
                                 <rect key="frame" x="174" y="433" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Commute"/>
+                                <connections>
+                                    <action selector="calcCommute:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uh8-TK-hVC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Commute Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cJ-wn-Srj">
                                 <rect key="frame" x="52" y="488" width="159" height="21"/>
@@ -132,6 +138,7 @@
                         <outlet property="gasStepper" destination="UI9-hW-rt5" id="uL8-Ig-Xt3"/>
                         <outlet property="modeOfTransport" destination="1LX-oJ-t0X" id="ALc-eq-nPS"/>
                         <outlet property="stepperIcon" destination="8Ir-nM-Rkk" id="ia4-b1-1c5"/>
+                        <outlet property="switchMonthly" destination="h1p-Af-AlM" id="yN8-Lp-Gkh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
