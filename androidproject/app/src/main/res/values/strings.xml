@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">androidproject</string>
+    <string name="onebedroom">One Bedroom One Bathroom</string>
+    <string name="twobedroom">Two Bedrooms Two Bathrooms</string>
+    <string name="onebathroom">Three Bedrooms Three Bathrooms</string>
+    <string name="twobathroom">Four Bedrooms Four Bathrooms</string>
+    <string name="lowcost">Up to $500,000</string>
+    <string name="midcost">$500,000 to $1,000,000</string>
+    <string name="highcost">Over $1,000,000</string>
+    <string name="brand">Results</string>
+    <string name="onebedonebathlow">($112,897) 2870 E College Ave Unit 110, Boulder CO 80303 \n ($564,000) 5378 Marshall Rd, Boulder CO 80305 \n ($2,697,000) 310 Linden Ave, Boulder CO 80304</string>
+    <string name="twobedtwobathlow">($385,000) 41 Irene Ct, Broomfield CO 80020 \n ($545,000) 2885 N 107th St, Lafayette CO 80026 \n ($1,089,900) 661 Concord Ave, Boulder CO 80304</string>
+    <string name="threebedthreebathlow">($429,000) 1785 Wilson Cir, Erie CO 80516 \n ($649,000) 35642 Boulder Canyon Dr, Boulder CO 80302 \n ($3,950,000) 6590 Lakeview Dr, Boulder CO</string>
+    <string name="fourbedfourbathlow">($439,000) 3228 Billington Dr, Erie CO 80516 \n ($664,000) 13720 Telluride Dr, Broomfield CO 80020 \n ($1,100,000) 8073 Kincross Way, Boulder CO 80301</string>
+    <string name="onebedonebathmid">($564,000) 5378 Marshall Rd, Boulder CO 80305</string>
+    <string name="twobedtwobathmid">($545,000) 2885 N 107th St, Lafayette CO 80026</string>
+    <string name="twobedthreebathmid">($674,900) 7183 Dry CreekCt, Niwot CO 80503</string>
+    <string name="threebedthreebathmid">($649,000) 35642 Boulder Canyon Dr, Boulder CO 80302</string>
+    <string name="fourbedfourbathmid">($664,000) 13720 Telluride Dr, Broomfield CO 80020</string>
+    <string name="onebedonebathhigh">($2,697,000) 310 Linden Ave, Boulder CO 80304</string>
+    <string name="twobedtwobathhigh">($1,089,900) 661 Concord Ave, Boulder CO 80304</string>
+    <string name="twobedthreebathhigh">($1,195,000) 601 Canyon Blvd, Boulder CO 80302</string>
+    <string name="threebedfourbathhigh">($3,950,000) 6590 Lakeview Dr, Boulder CO</string>
+    <string name="fourbedfourbathhigh">($1,100,000) 8073 Kincross Way, Boulder CO 80301</string>
+    <string name="results">Results</string>
+</resources>
