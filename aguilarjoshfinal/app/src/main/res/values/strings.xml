@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">burrito builder</string>
+    <string name="brand">burrito builder</string>
+    <string name="burrito">burrito</string>
+    <string name="taco">taco</string>
+    <string name="salsa">salsa</string>
+    <string name="cheese">cheese</string>
+    <string name="cream">sour cream</string>
+    <string name="guac">guacamole</string>
+    <string name="gluten">gluten free</string>
+    <string name="meat">meat</string>
+    <string name="veggie">veggie</string>
+    <string name="build">build</string>
+    <string name="find">find burrito</string>
+    <string name="chipotle">chipotle</string>
+    <string name="bartaco">bartaco</string>
+    <string name="petes">illegal petes</string>
+    <string name="location">find burrito</string>
+    <string name="name">name</string>
+    <string name="results">a burrito with meat, salsa, cheese, and sour cream</string>
+    <string name="result"> a taco with meat, salsa, cheese, and sour cream</string>
+</resources>
